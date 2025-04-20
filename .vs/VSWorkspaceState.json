@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application",
+    "\\Application\\Interfaces",
+    "\\Application\\Services",
+    "\\bin",
+    "\\Domain",
+    "\\Domain\\Entities",
+    "\\Domain\\ValueObjects",
+    "\\Infrastructure",
+    "\\Infrastructure\\Repositories"
+  ],
+  "SelectedNode": "\\Domain\\Entities",
+  "PreviewInSolutionExplorer": false
+}

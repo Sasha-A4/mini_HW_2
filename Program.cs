@@ -21,7 +21,7 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.Urls.Add("http://localhost:5000");
 app.UseAuthorization();
 app.MapControllers();
 

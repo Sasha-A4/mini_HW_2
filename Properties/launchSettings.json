@@ -1,12 +1,36 @@
+//{
+//  "profiles": {
+//    "ZooApp": {
+//      "commandName": "Project",
+//      "launchBrowser": true,
+//      "environmentVariables": {
+//        "ASPNETCORE_ENVIRONMENT": "Development"
+//      },
+//      "applicationUrl": "https://localhost:61552;http://localhost:61553"
+//    }
+//  }
+//}
 {
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5000",
+      "sslPort": 44300
+    }
+  },
   "profiles": {
-    "ZooApp": {
+    "IIS Express": {
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "ProjectName": {
       "commandName": "Project",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:61552;http://localhost:61553"
+      "applicationUrl": "http://localhost:5000" // здесь можно указать другой порт
     }
   }
 }
