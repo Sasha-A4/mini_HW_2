@@ -50,4 +50,4 @@
 
 # *Запуск*
 
-  Через cmd в папке проекта написать команду *dotnet run*, перейти по адресу local host'a
+  Через cmd в папке проекта написать команду *dotnet run*, перейти по адресу local host'a - *http://localhost:5000/swagger*
